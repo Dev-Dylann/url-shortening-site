@@ -9,17 +9,23 @@ import customizable from '../assets/icon-fully-customizable.svg'
 const MainBody = ({ history, setHistory }) => {
   const [link, setLink] = useState(``);
   const [shortLink, setShortLink] = useState(``);
+  const [fetchError, setFetchError] = useState(null);
 
   const shortenLink = async () => {
+    setFetchError(null);
 
     try{
       const response = await shortener.get(`/shorten?url=${link}`);
       setShortLink(response.data.result.full_short_link);
     } catch(err) {
-      if (err.response) {
-        console.log(err.response)
+      if (err.response) {        
+        if (link == ``) {
+          setFetchError(`Please add a link`);
+        } else {
+          setFetchError(err.response.data.error);
+        }
       } else {
-        console.log(err.message)
+        setFetchError(err.message);
       }
     }
   }
@@ -56,6 +62,7 @@ const MainBody = ({ history, setHistory }) => {
           link={link} 
           setLink={setLink} 
           shortenLink={shortenLink}
+          fetchError={fetchError}
         />
 
         <History history={history} />

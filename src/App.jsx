@@ -35,7 +35,7 @@ function App() {
           setNavState={setNavState} 
         />
 
-        {navState && <Nav navState={navState} />}
+        <Nav navState={navState} />
 
         <Hero />
       </header>

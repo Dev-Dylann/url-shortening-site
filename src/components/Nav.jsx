@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = ({ navState }) => {
   return (
-    <section className='absolute top-20 left-0 w-full px-6'>
+    <section className='absolute top-20 left-0 w-full px-6 transition-all duration-500 -translate-y-[125%]' style={navState ? {transform: "translateY(0)"} : {}}>
         <nav className='bg-violet-dark text-center p-10 rounded-lg flex flex-col gap-5'>
             <ul className='text-xl text-white font-bold space-y-6'>
                 <li>Features</li>
