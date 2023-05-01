@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Screenshot](./public/screenshot1.png)
-![Mobile Screenshot](./screenshot2.png)
+![Mobile Screenshot](./public/screenshot2.jpg)
 
 ### Links
 
