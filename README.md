@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: [Solution on GitHub](https://github.com/Dev-Dylann/url-shortening-site/)
 - Live Site URL: [Shortly URL Shortener](https://devdylann-url-shortener.netlify.app/)
 
 ## My process
