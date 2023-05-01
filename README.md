@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://your-solution-url.com)
+- Live Site URL: [Shortly URL Shortener](https://devdylann-url-shortener.netlify.app/)
 
 ## My process
 
@@ -52,6 +52,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [DevDylan](https://github.com/Dev-Dylann)
+- Frontend Mentor - [@Dev-Dylann](https://www.frontendmentor.io/profile/Dev-Dylann)
+- Twitter - [@TunmiseTubi](https://www.twitter.com/TunmiseTubi)
