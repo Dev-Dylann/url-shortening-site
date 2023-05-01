@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         cyan: "hsl(180, 66%, 49%)",
+        brightCyan: "hsl(180, 66%, 69%)",
         violet: {
           dark: "hsl(257, 27%, 26%)",
           gray: "hsl(257, 7%, 63%)",

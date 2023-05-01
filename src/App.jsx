@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <header className="py-8 px-6 flex flex-col gap-6 overflow-x-hidden relative">
+      <header className="py-8 px-6 flex flex-col gap-6 overflow-x-hidden relative sm:p-10">
         <Header 
           navState={navState}  
           setNavState={setNavState} 
@@ -46,9 +46,7 @@ function App() {
         <Boost />
       </main>
 
-      <footer className='px-6 py-12 bg-violet-extraDark flex flex-col items-center'>
         <Footer />
-      </footer>
     </>
     
   )
